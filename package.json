@@ -1,0 +1,31 @@
+{
+  "name": "codinghelp",
+  "version": "2.0.0",
+  "description": "CodingHelp Discord Server's Bot",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@psibean/discord.js-pagination": "^4.0.1",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.2.0",
+    "discord.js-ghost-ping": "^2.0.3",
+    "enmap": "^5.8.4",
+    "humanize-duration": "^3.26.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.2",
+    "node-fetch": "^2.6.5",
+    "pm2": "^5.1.2",
+    "sequelize": "^6.5.0"
+  },
+  "scripts": {
+    "test": "nodemon start index.js",
+    "start": "pm2 start index.js",
+    "dev": "node index.js"
+  },
+  "author": "Erin Skidds",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.1"
+  }
+}
